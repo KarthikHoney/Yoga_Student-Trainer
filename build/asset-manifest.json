@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/grade/static/css/main.4d021289.css",
+    "main.js": "/grade/static/js/main.83161c03.js",
+    "static/media/loginbg.jpg": "/grade/static/media/loginbg.b8186aa0625eb5226e41.jpg",
+    "static/media/trainer-form.jpg": "/grade/static/media/trainer-form.4939335c02b1fead8e84.jpg",
+    "static/media/bg.jpg": "/grade/static/media/bg.7446ab214ea6a1330c69.jpg",
+    "index.html": "/grade/index.html",
+    "main.4d021289.css.map": "/grade/static/css/main.4d021289.css.map",
+    "main.83161c03.js.map": "/grade/static/js/main.83161c03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d021289.css",
+    "static/js/main.83161c03.js"
+  ]
+}

@@ -1,0 +1,261 @@
+.flexbox{
+  display: flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  background:  url("./assets/img/bg.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+}
+.sidebar{
+  background-image: repeating-linear-gradient(to bottom,#25486b,#76a0c9);
+  min-height: 100vh;
+  
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.bars{
+  display: flex;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.form-control{
+  border: none;
+}
+.link{
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 5px 15px;
+  gap: 15px;
+  transition: all 0.3s;
+  color: #fff;
+}
+.link:hover{
+  background-color: #fff;
+  color: #000;
+}
+.active{
+  background-color: #fff;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+.table-fill{
+	background: white;
+	border-radius: 3px;
+	border-collapse: collapse;
+	margin: auto;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 0px 5px 5px #000;
+	animation: float 5s infinite;
+}
+th{
+	color: #D5DDE5;
+	background: #25486b;
+	border-right: 1px solid #343a45;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 24px;
+  text-wrap: nowrap;
+}
+
+tr{
+	border-top: 1px solid #C1C3D1;
+	border-bottom: 1px solid #C1C3D1;
+	font-size: 16px;
+	font-weight: 500;
+  text-wrap: nowrap;
+}
+td:hover{
+	background: #00000046;
+  box-shadow: 0px 4px 7px inset #000; 
+}
+
+td{
+  backdrop-filter: blur(15px);
+	padding: 20px;
+	font-weight: 500;
+	border-right: 1px solid #C1C3D1;
+  transition: all 0.15s;
+}
+
+
+ button{
+  cursor: pointer;
+}
+.search-input{
+  width: 30%;
+  /* float: inline-end; */
+  outline: none;
+  border: 1px solid #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/*Dashboard*/
+.dashboard-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.total-members{
+  width: 250px;
+  height: 120px;
+  background-color: rgb(22, 209, 153);
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.total-members:hover{
+  transform: translateY(-15px);
+}
+/*trainer popup form*/
+.add-trainer{
+  background-image: url('../src/assets/img/trainer-form.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+
+}
+.add-trainer  form{
+  max-width: 100%;
+  width: 40%;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 3px #ffe5e580;
+  color: #fff;
+}
+.add-trainer h2{
+  color: #fff;
+}
+.add-trainer label{
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+
+}
+.add-trainer input,select,textarea{
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+.add-trainer button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+/*login form*/
+.login-page{
+  background-image: url('../src/assets/img/loginbg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.login-page  form{
+  max-width: 100%;
+  width: 40%;
+  padding: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 3px #ffe5e580;
+  color: #000000;
+}
+.login-page label{
+  font-size: 17px;
+  font-weight: 500;
+}
+.categroy{
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+.categroy:hover{
+  transform: translateY(-5px);
+  background-color: yellow;
+}
+.parentname{
+  font-size: 16px !important;
+}
+
+.login-page input,select,textarea{
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+.login-page button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.num-text{
+  font-size: 45px;
+}
+.user-icon{
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  color: #000;
+  transition: all 0.15s;
+}
+.user-icon:hover{
+  background-color: #25486b;
+  color: #fff;
+}
+.table{
+  backdrop-filter: blur(10px);
+}
+@media(max-width:1400px){
+  .login-page form{
+    width: 60%;
+  }
+  .add-trainer form{
+    width: 60%;
+  }
+}
+
+@media(max-width:992px){
+  .login-page form{
+    width: auto;
+  }
+  .add-trainer form{
+    width: auto;
+  }
+  .table-scroll{
+    overflow-x: scroll;
+  }
+  th{
+    font-size: 17px;
+  }
+}
+
+@media(max-width:767px){
+  .search-input{
+    width: auto;
+  }
+}

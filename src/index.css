@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: #25486b;
+  border-radius: 10px;
+}
+h1,h2{
+  font-family:  "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+h3,h4,h5,h6,p,a,li,tr,th,input{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ht_btn{
+  padding: 5px 20px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-content: center;
+  transition: all 0.3s;
+  background-color: yellow;
+}
+.ht_btn:hover{
+  box-shadow: 0px 0px 0px 2px yellow;
+}
+a{text-decoration: none;}
+img{max-width: 100%;}
+.modal-backdrop{
+  position: static !important;
+}
+
+.Applied-button{
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  background-color: rgb(22, 209, 153);
+}
